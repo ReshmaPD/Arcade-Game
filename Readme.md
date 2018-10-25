@@ -8,7 +8,7 @@
 * [Game dependencies](#game-dependencies)
 * [Contributing](#contributing)
 
-## About-game
+## About game
 
 A Classic Arcade game look , which consists of a Player and three Enemy Bugs.The goal of the Player is to reach the water, while avoid getting caught by colliding into any of the enemy bugs.
 
@@ -34,7 +34,7 @@ A Classic Arcade game look , which consists of a Player and three Enemy Bugs.The
 * CSS  
 * Visual Studio Code Editor used  
 
-## Game-functionalities
+## Game functionalities
 
 1.  Captures the number of times the player reaches the top.  
 2.  Captures the number of times the player and bugs collide.  
@@ -43,7 +43,7 @@ A Classic Arcade game look , which consists of a Player and three Enemy Bugs.The
 5.  In the modal message player can choose to play the game again or close it.  
 6.  Player can restart the game at any time using the restart button on the screen which resets the game.  
 
-## Game-dependencies
+## Game dependencies
 
 No such external dependencies are required to play. All assets are locally available and works offline,removing the need for an active internet connection.
 
