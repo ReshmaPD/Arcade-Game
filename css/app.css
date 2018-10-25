@@ -1,0 +1,185 @@
+body {
+    text-align: center;
+}
+
+h1,
+.panel {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    padding: 0%;
+    margin: 0%;
+}
+
+/*-----------------------*/
+/*
+ * Styles for the Score Panel
+ */
+
+.main-panel {
+    margin: 0%;
+    padding: 1%;
+}
+
+.panel {
+    margin: -2px;
+}
+
+.score {
+    display: inline-block;
+    padding-right: 12px;
+}
+
+.stats {
+    padding-left: 20px;
+    text-align: left;
+    /* white-space: pre-line; */
+}
+
+/* Modal Popup*/
+.modal_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(211, 211, 211, 0.753);
+}
+
+
+
+div.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+
+.hide {
+    display: none;
+}
+
+.modal_body {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    width: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #858fc9;
+    transform: translate(-50%, -70%);
+    border-radius: 10px;
+}
+
+.modal_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    border-bottom: 1px solid gray;
+
+}
+
+.modal_title {
+    text-transform: uppercase;
+    padding-top: 18px;
+    color: #2e3d49;
+}
+
+.modal_cancel {
+    width: 40px;
+    color: #dcdcdc;
+    background-color: #20b2aa;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2px;
+    margin: 10px;
+    float: right;
+}
+
+.repeat {
+    color: #ffffff;
+    background-color: #0ed1c7;
+
+}
+
+.rules {
+    color: #f7e8e8;
+    background-color: #ff7637;
+}
+
+.repeat,
+.rules {
+    width: 60px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2px;
+    margin: 10px
+}
+
+.timesCaught {
+    padding-left: 4px;
+}
+
+/* Changes close button color when hover */
+.modal_cancel:hover {
+    background-color: #20b2aa;
+    color: #ffffff;
+}
+
+.repeat:hover {
+    background-color: #82dbd7;
+    color: #ffffff;
+}
+
+.rules:hover {
+    background-color: #ff864e;
+    color: #ffffff;
+}
+
+.modal_stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+    color: #7c1296;
+    font-size: 120%;
+    font-weight: bold;
+
+}
+
+.modal_buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.modal_button {
+    height: 30px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #e5c7c1;
+    color: #02b3e4;
+    font-weight: bold;
+    display: block;
+}
+
+.modal_button:hover {
+    background-color: #433f5d;
+    color: white;
+}
+
+.modal_replay {
+    padding: 2px;
+    margin: 10px;
+    width: 70px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------*/

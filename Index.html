@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <header>
+        <h1>Arcade Game</h1>
+    </header>
+    <section class="main-panel">
+            <div class="panel"><span>Score</span>
+                <span class="score">0</span>
+                <span>Caught</span><span class="timesCaught">0</span>
+            </div>
+            <div class="panel"><button class="repeat">Restart</button>
+            <span class="rules-box"><button class="rules">Rules</button></span></div>
+        </section>
+    <!-- Modal Window -->
+    <div id="popup" class="modal_background hide">
+        <div class="modal_body">
+            <button class="modal_button modal_cancel">x</button>
+            <div class="modal_heading">
+                <h2 class="modal_title"></h2>
+            </div>
+                <div class="stats">
+            </div>
+            <div class="modal_buttons hide">
+                <button class="modal_button modal_replay hide">Play</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
