@@ -1,16 +1,18 @@
 # Arcade Game Project
 
+[Live Website](https://reshma-arcade-game.netlify.com)
+
 ## Table of Contents
-* [About Game](#about-game)
+* [About](#about)
 * [How to play](#how-to-play)
 * [Technologies](#technologies)
 * [Game Functionalities](#game-functionalities)
 * [Game dependencies](#game-dependencies)
 * [Contributing](#contributing)
 
-## About game
+## About
 
-A Classic Arcade game look , which consists of a Player and three Enemy Bugs.The goal of the Player is to reach the water, while avoid getting caught by colliding into any of the enemy bugs.
+The Arcade game creates a great opportunity to demonstrate my object oriented JavaScript programming skills an important programming paradigm that influences our application architecture and provides performance optimization.
 
 ## How to play
 
