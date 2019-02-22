@@ -2,6 +2,8 @@
 
 [Live Website](https://reshma-arcade-game.netlify.com)
 
+**[Starter Code](https://github.com/udacity/frontend-nanodegree-arcade-game) The starter code from Udacity provided the art assets and game engine HTML5 canvas.Goal was to convert this project to an interactive game primarily using JavaScript and OOP.**
+
 ## Table of Contents
 * [About](#about)
 * [How to play](#how-to-play)
